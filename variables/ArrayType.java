@@ -6,6 +6,9 @@ public class ArrayType {
 
     public static void main(String[] args){
 
+        int data[] = new int[10];
+        System.out.println("Length of data: " + data.length);
+
         int[] numbersArray = {1, 212, 22, 41, 829, 23};
         String[] cars = {"BMW", "Chevrolet", "Vitz", "Axio"};
 

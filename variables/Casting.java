@@ -6,10 +6,14 @@ public class Casting {
 
         //automatic casting or widening casting
         int myInteger = 10;
-        double myDouble = myInteger; 
+        double myDouble = myInteger; //two types are compatible
 
         System.out.println(myInteger); //10
         System.out.println(myDouble);  //10.0
+
+        //causes java.lang.NumberFormatException
+        // int stringConversion = Integer.parseInt("hello");
+        // System.out.println("String to float conversion: " + stringConversion);
 
         //manual casting or narrowing casting
         double doubleValue = 9.38d;
