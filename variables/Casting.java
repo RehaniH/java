@@ -22,6 +22,14 @@ public class Casting {
         System.out.println(intValue);
         System.out.println(doubleValue);
 
+        int one = 49;
+        int simpleA = 97;
+
+        char oneChar = (char)one;
+        char aChar = (char)simpleA;
+        System.out.println(one + " = " + oneChar);
+        System.out.println(simpleA + " = " + aChar);
+
 
 
     }
