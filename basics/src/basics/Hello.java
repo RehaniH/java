@@ -7,7 +7,7 @@ public class Hello {
 		System.out.println("a new line added after code");
 		System.out.print("this is printed on next line");
 		
-		String[] stringargs = new String[5];
+	//	String[] stringargs = new String[5];
 	//	main(stringargs); recursive -> runtime exception
 		main();
 		main(30);
