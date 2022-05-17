@@ -1,0 +1,1 @@
+Add odbc11_g.jar to build path of the project
