@@ -16,7 +16,13 @@ public class StringManipulations {
         System.out.println(fullName.toUpperCase());
         System.out.println(fullName.toLowerCase());
         System.out.println(fullName.indexOf("hani"));
+        System.out.println("13"+ 5 + 3);
 
+        String trimming = " Hey, buddy! ";
+        trimming = trimming.trim();
+        System.out.println(trimming);
+        System.out.println(trimming.length());
+        System.out.println('a');//a single charractor can always be printed.
 
     }
     

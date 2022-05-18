@@ -81,6 +81,16 @@ public class Datatypes {
         System.out.println("Name is of string data type: " + firstInitial + name + " where as age is of int: " +  age);
         System.out.println(name.toLowerCase());
         System.out.println(name.concat(" Blog"));
+
+        float conversion = a;
+        System.out.println("Char to float conversion: " + conversion);
+
+        //causes java.lang.NumberFormatException
+        // int stringConversion = Integer.parseInt("hello");
+        // System.out.println("String to float conversion: " + stringConversion);
+
+        char unicode = '\u0061'; //2 bytes stores unicode charractors
+        System.out.println("Unicode: "+ unicode);
     }
     
 }
